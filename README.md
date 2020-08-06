@@ -1,2 +1,2 @@
 # google-homepage
-My first project learning from he odin project.
+My first project learning from the odin project.
