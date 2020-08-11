@@ -108,25 +108,28 @@
 				background-color: white;
 				border: none;
 				color: black;
-				padding: 10px 100px;
-				text-align: center;
+				padding: 10px 50px;
 				text-decoration: none;
-				display: inline-block;
 				border-radius: 20px;
 			}
 			.pillshapedbox:hover{
 				cursor:text;
 			}
+			.mag{
+				float: left;
+  				width: 10%;
+			}
+			.field{
+				float: left;
+  				width: 80%;
+			}
 			.searchfield{
 				background-color: white;
-				border-width:0px;
 				border: none;
-				width:100%
+				width: 80%;
 				text-align: left;
-				text-decoration: none;
-				border-radius: 20px;
 				outline: none;
-				font-size: 30px;
+				font-size: 20px;
 			}
 		</style>
 	</head>
@@ -182,7 +185,9 @@
 			<a class="E">e</a>
 		</div>
 		<div class="search">
-			<div class="pillshapedbox"><input class="searchfield" type="text"></div>
+			<div class="pillshapedbox">
+				<input class="searchfield" type="text" placeholder="Search Google or type a URL">
+			</div>	
 		</div>
 	</body>
 </html>
